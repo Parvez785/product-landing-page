@@ -10,31 +10,19 @@ body{
 html, body {width: auto!important; overflow-x: hidden!important} 
 
 #header{
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 30px;
-    margin-right: 20px;
-    position: sticky;
+   
    
 }
-
+#work > li>a{
+    color:black;
+    font-size: 18px;
+}
 .logo img{
     width: 300px;
     margin-left: 25px;
 }
-ul.nav li{
- display: inline;
-margin-right: 50px;
-}
-li.menu a{
-    padding-right: 35px;
-    text-decoration: none;
-    font-size: 18px;
-    text-decoration: none;
-    color:black;
-}
+
 h1 { 
     text-transform: uppercase;
 }
@@ -158,18 +146,21 @@ i.fa.fa-bars {
 ol, ul {
     padding-left: 1rem;
 }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 @media only screen and (max-width: 767px){
     .logo img {
         width: 200px;
        margin-top: 7px;
        margin-left: auto;
     }
-    i.fa.fa-bars {
-        display: block;}
-       ul#mynav {
-            display: none;
-            
-        }
+    ul#work{
+        text-align: center;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
         .features-section {
            margin:40px 0px 0px 0px;
            padding: 0;            
@@ -201,14 +192,7 @@ ol, ul {
 
 }
 @media only screen and (min-width: 768px) and (max-width:1024px){
-    ul#mynav{
-        display: flex;
-        justify-content: flex-end;
-    }
-    ul.nav li {
-        display: inline;
-         margin-right: 5px
-    }
+   
     .features-section {
         margin-top: 75px;
         margin-left: -20px;
