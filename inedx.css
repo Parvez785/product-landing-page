@@ -41,7 +41,7 @@ button#get\ started {
 
 .features-section{
     margin-top: 116px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .grid{
     display: flex;
@@ -59,6 +59,12 @@ button#get\ started {
     display: flex;
     flex-direction: column;
       
+}
+ul#work{
+    margin-right: 60px;
+}
+li.nav-items{
+    padding-right: 30px;
 }
 i.fa.fa-3x.fa-fire {
     padding-left: 35px;
@@ -146,14 +152,14 @@ i.fa.fa-bars {
 ol, ul {
     padding-left: 1rem;
 }
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
+ .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
 @media only screen and (max-width: 767px){
     .logo img {
-        width: 200px;
-       margin-top: 7px;
-       margin-left: auto;
+        width: 220px;
+        margin-top: 7px;
+        margin-left: -20px;
     }
     ul#work{
         text-align: center;
@@ -188,6 +194,12 @@ ol, ul {
         body > div > div.footer > ul > li{
             font-size: 17px;
         }
+        ul#work{
+            margin-right: -30px;
+        }
+        li.nav-items{
+            padding-right: 20px;
+        }
         
 
 }
@@ -207,5 +219,11 @@ ol, ul {
     input#email {
         margin-top: 20px;
         padding: 8px 75px;
+    }
+    ul#work{
+        margin-right: -12px;
+    }
+    li.nav-items{
+        padding-right: 20px;
     }
 }
